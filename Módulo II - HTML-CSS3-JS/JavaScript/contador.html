@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/contador.css" />
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Este é o meu primeiro projeto Javascript.</p>
+    <div id="counter">
+        <button name="subtrair" onclick="decrement()">-</button>
+        <span id="currentNumber">0</span>
+        <button name="adicionar" onclick="increment()">+</button>
+    </div>
+    
+    <br><br>
+
+    <p>Método addEventListener</p>
+    <div id="counter">
+        <button id="decrement2" name="subtrair2">-</button>
+        <span id="currentNumber2">0</span>
+        <button id="increment2" name="adicionar2">+</button>
+    </div>
+
+    <br><br>
+
+    <p>Limitador entre 0 e 10</p>
+    <div id="counter">
+        <button name="subtrair" onclick="decrement_limit()">-</button>
+        <span id="currentNumber3">0</span>
+        <button name="adicionar" onclick="increment_limit()">+</button>
+    </div>
+
+    <br><br>
+
+    <p>Alterando a cor de números negativos</p>
+    <div id="counter">
+        <button name="subtrair" onclick="decrement_color()">-</button>
+        <span id="currentNumber4">0</span>
+        <button name="adicionar" onclick="increment_color()">+</button>
+    </div>
+    
+    <script src="./assets/js/contador.js"></script>
+</body>
+</html>
